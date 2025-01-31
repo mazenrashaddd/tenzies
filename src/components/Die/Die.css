@@ -1,0 +1,36 @@
+.dieButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  font-size: 30px;
+  font-weight: 550;
+  padding: 0; /*add padding if you will be getting back to plain text numbers instead of dice images*/
+  margin: 0; /*add margin if you will be getting back to plain text numbers instead of dice images*/
+  color: #071f2e;
+  border: none;
+  border-radius: 6px;
+  /* background-color: white; /*revert to white if you will be getting back to plain text numbers instead of dice images*/
+  background-color: rgb(247, 247, 247);
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+  transition: background-color 0.2 ease-in-out;
+}
+
+.dieButton:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.dieButton.held {
+  background-color: #59e391;
+}
+
+.dieButton.held:hover {
+  background-color: #43b16f;
+}
+
+.dieIcon {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
