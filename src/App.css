@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Inter, sans-serif;
+  height: 100dvh;
 }
 
 main {
@@ -13,7 +14,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100dvh
 }
 
 .innerSection {
@@ -23,7 +24,7 @@ main {
   justify-content: space-evenly;
   align-items: center;
   width: 90%;
-  height: 90%;
+  height: 500px;
   border-radius: 15px;
   max-width: 400px;
   max-height: 400px;
